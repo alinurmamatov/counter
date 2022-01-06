@@ -1,0 +1,35 @@
+body {
+    background-color: lightyellow;
+    text-align: center;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#value {
+    font-size: 70px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    border: 2px solid grey;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 3px rgb(163, 161, 161);
+}
+
+.btn:hover {
+    background-color: rgb(155, 149, 92);
+    color: white;
+    transition:
+        /* 0.26s */
+        250ms linear;
+}
